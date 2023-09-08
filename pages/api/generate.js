@@ -1,5 +1,5 @@
 import OpenAI from "openai";
-import { context } from "../mocks/context";
+import { context } from "../../mocks/context";
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
